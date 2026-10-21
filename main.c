@@ -2,11 +2,11 @@
 
 int main() {
   int d;
-  long o_v;
-  scanf ("%d %d", &d, &o_v);
-  if (d<=0 || o_v<=0){
+  long long v;
+  scanf ("%d %d", &d, &v);
+  if (d<=0 || v<=0){
     printf("INVALID\n");
-  } else if (o_v>=500000 || d<15){
+  } else if (v>=500000 || d<15){
     printf("0\n");
   } else if (d<=5){
     printf("15000\n");
