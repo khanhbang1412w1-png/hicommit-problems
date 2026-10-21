@@ -10,6 +10,6 @@ int main()
   } if (c > max){
     max = c;
   }
-  print("%d\n", max);
+  printf("%d\n", max);
   return 0;
 }
