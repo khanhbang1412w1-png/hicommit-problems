@@ -10,7 +10,7 @@ int main()
     printf("MAT\n");
   } else if (t < 35){
     printf("NONG\n");
-  } else if {
+  } else {
     printf("RAT_NONG\n");
   }
   return 0;
