@@ -2,7 +2,7 @@
 
 int main() {
   int d;
-  long long v;
+  long v;
   scanf ("%d %lld", &d, &v);
   if (d<=0 || v<=0){
     printf("INVALID\n");
