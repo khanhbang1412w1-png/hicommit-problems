@@ -7,7 +7,7 @@ int main()
   int max = a;
   if (b > max){
     max = b;
-  } else (c > max){
+  } if (c > max){
     max = c;
   }
   print("%d\n", max);
