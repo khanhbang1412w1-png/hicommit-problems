@@ -2,7 +2,12 @@
 
 int main() 
 {
-  int a;
-  scanf("%d", @a);
+  int n;
+  scanf("%d", &n);
+  if (n%2==0){
+    printf("chan\n")
+  } else {
+    printf("le\n")
+  }
   return 0;
 }
