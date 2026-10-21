@@ -2,12 +2,12 @@
 
 int main() 
 {
-  int n;
+  long n;
   scanf("%d", &n);
   if (n%2==0){
-    printf("chan\n");
-  }else {
-    printf("le\n");
+    printf("CHAN\n");
+  } else {
+    printf("LE\n");
   }    
   return 0;
 }
