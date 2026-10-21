@@ -3,7 +3,7 @@
 int main() {
   int d;
   long long v;
-  scanf ("%d %d", &d, &v);
+  scanf ("%d %lld", &d, &v);
   if (d<=0 || v<=0){
     printf("INVALID\n");
   } else if (v>=500000 || d<15){
