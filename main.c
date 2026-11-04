@@ -2,8 +2,8 @@
 #include <math.h>
 
 int main() {
-  int xeploai = 4;
-  switch (xeploai)
+  int xeploai=4;
+  switch(xeploai)
   {
     case 1:
       printf("XEP_LOAI_XUAT_SAC"); 
@@ -13,6 +13,7 @@ int main() {
       break;
     case 3:
       printf("XEP_LOAI_KHA");
+      break;
     default:
       printf("KHONG_HOP_LE");
   }
