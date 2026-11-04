@@ -2,6 +2,7 @@
 
 int main() {
   int n;
+  int xeploai = '*';
   switch (xeploai)
   {
     case 1:
