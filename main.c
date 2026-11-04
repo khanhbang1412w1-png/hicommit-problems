@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  int n;
-  int xeploai = '*';
+  int xeploai = 4;
   switch (xeploai)
   {
     case 1:
