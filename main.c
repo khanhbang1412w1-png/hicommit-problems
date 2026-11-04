@@ -3,7 +3,6 @@
 int main() {
   float dtb, drl;
   scanf("%f%f", &dtb, &drl);
-  printf("Nhap dtb, drl:");
     if (dtb>=9.0 && drl>=90){
       printf("HOC_BONG_XS");
     }else if (8.0<=dtb && dtb<9.0 && 80<=drl && drl>90 || dtb>=9.0 && 80<=drl && drl<90){
